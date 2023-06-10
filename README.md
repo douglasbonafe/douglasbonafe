@@ -5,7 +5,7 @@ I'm a Javascript Architect/Lead with over a decade+ of experience and you've stu
 * 🌍  I'm based in Brazil, but work in EST timezone.
 * 📝  I write stuff at [Personal Medium](https://medium.com/@dsbonafe) and at [SPERO Medium](https://medium.com/spero-engineering).
 * 🔭  I’m currently working on Enterprise Projects with Typescript in the last few years.
-* 🚀  I'm also working on a learning platform for beginner web developers  [ilm.aalam.in](http://ilm.aalam.in) (Coming Soon)
+* 🚀  I'm also working on a learning platform for youngers and their parents be able to have a Classical Teaching and Deeply Technical domain at [Spero Market](https://www.spero.com/marketplace).
 * 🧠  I'm learning React, Rust, Golang besides all the latest and great things happening in the Node ecossystem.
 * 🤝  I'm open to collaborating on Typescript, Java, and Python.
 * ⚡  I'm a catholic, family lover, and passionate for philosophy, pedagogy and theology.
