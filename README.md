@@ -9,6 +9,7 @@ I'm a Javascript Architect/Lead with over a decade+ of experience and you've stu
 * 🧠  I'm learning React, Rust, Golang besides all the latest and great things happening in the Node ecossystem.
 * 🤝  I'm open to collaborating on Typescript, Java, and Python.
 * ⚡  I'm a catholic, family lover, and passionate for philosophy, pedagogy and theology.
+* 📫 How to reach me: [freela][@][mailmasker.com]
 
 <a href="https://www.github.com/dsboanfe" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/one-aalam?logo=github&style=for-the-badge&color=0891b2&labelColor=000000" /></a>
@@ -39,15 +40,10 @@ src="https://img.shields.io/github/followers/one-aalam?logo=github&style=for-the
 ### Socials
 
 <p align="left"> <a href="https://www.behance.com/dsbonafe" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/behance.svg" width="32" height="32" /></a> 
- 
  <a href="https://www.dev.to/douglasbonafe" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" /></a>
- 
  <a href="https://www.dribbble.com/one-aalam" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/dribbble.svg" width="32" height="32" /></a> 
- 
  <a href="https://www.github.com/one-aalam" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
- 
  <a href="https://hashnode.dev/douglasbonafe" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/hashnode.svg" width="32" height="32" /></a> 
- 
  <a href="https://www.linkedin.com/in/brdoublasbonafe" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
 
 
