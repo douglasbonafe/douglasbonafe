@@ -49,8 +49,8 @@ src="https://img.shields.io/github/followers/one-aalam?logo=github&style=for-the
 <b>My GitHub Stats</b>
 
 <a href="https://github.com/one-aalam">
-  <img height="225" src="https://github-readme-stats.vercel.app/api?username=one-aalam&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="225" src="https://github-readme-stats.vercel.app/api/top-langs/?username=one-aalam&theme=dark"/>
+  <img height="225" src="https://github-readme-stats.vercel.app/api?username=dsbonafe&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="225" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dsbonafe&theme=dark"/>
 </a>
 
 <!--
