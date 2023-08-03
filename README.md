@@ -10,6 +10,7 @@ I'm a Javascript Architect/Lead with over a decade+ of experience and you've stu
 * 🤝  I'm open to collaborating on Typescript, Java, and Python.
 * ⚡  I'm a catholic, family lover, and passionate for philosophy, pedagogy and theology.
 * 📫 How to reach me: [freela][@][mailmasker.com]
+* If you are interested in TEST AUTOMATION, you can see some projects also [here](https://bitbucket.org/douglas_portfolio) and [here](https://github.com/dsbonafe?tab=repositories). I am working to organize everything in the best way.
 
 <a href="https://www.github.com/dsboanfe" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/one-aalam?logo=github&style=for-the-badge&color=0891b2&labelColor=000000" /></a>
