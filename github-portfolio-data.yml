@@ -1,0 +1,267 @@
+# ============================================================
+# GITHUB PORTFOLIO DATA
+# ============================================================
+# Este é o arquivo de configuração do seu portfolio GitHub.
+# EDITE AQUI — depois rode ./generate-data.sh para atualizar.
+#
+# O README.md é gerado AUTOMATICAMENTE. Não edite manualmente.
+# Atualização automática: todo domingo às 23h (horário de Brasília).
+# ============================================================
+
+# ------------------------------------------------------------
+# IDENTIFICAÇÃO
+# Seu nome de usuário no GitHub (obrigatório)
+# ------------------------------------------------------------
+username: "douglasbonafe"
+
+# ------------------------------------------------------------
+# PERFIL
+# Informações exibidas no banner principal (hero section)
+# ------------------------------------------------------------
+profile:
+  nome: "Douglas Bonafé"
+  titulo: "Staff QA/SDET · AI Engineer · Full-Stack Developer"
+  tagline: "Transformando qualidade em cultura de engenharia"
+  empresa: "Open to opportunities"
+  localizacao: "Pouso Alegre, MG, Brasil"
+  bio: |
+    Staff Engineer com foco em Quality Assurance, AI Engineering e desenvolvimento Full-Stack.
+    Especialista em automação de testes, observabilidade e sistemas inteligentes.
+    Apaixonado por construir ferramentas que tornam equipes de engenharia mais eficientes.
+  filosofia: '"Quality is not an act, it is a habit." — Aristotle'
+
+# ------------------------------------------------------------
+# LINKS SOCIAIS
+# Deixe em branco ("") os que não quiser exibir
+# ------------------------------------------------------------
+social:
+  linkedin: "douglasbonafe"
+  github: "douglasbonafe"
+  portfolio: ""        # Ex: "https://meuportfolio.netlify.app"
+  email: ""            # Ex: "douglas@email.com"
+  twitter: ""          # Ex: "dsbonafe"
+
+# ------------------------------------------------------------
+# BRAÇOS DA GALÁXIA (TECH STACK)
+# Cada braço representa uma área de expertise.
+# São exibidos como setores animados no SVG de tech stack.
+#
+# Cores disponíveis (predefinidas no tema):
+#   "synapse_cyan"     → ciano  (#00d4ff)
+#   "dendrite_violet"  → violeta (#a78bfa)
+#   "axon_amber"       → âmbar  (#ffb020)
+#   "emerald_green"    → verde  (#10b981)  ← novo
+#   "rose_pink"        → rosa   (#f43f5e)  ← novo
+#
+# Você pode adicionar até 7 braços.
+# Cada item em "items" aparece como um ponto orbital animado.
+# ------------------------------------------------------------
+galaxy_arms:
+  - name: "Quality & Testing"
+    color: "dendrite_violet"
+    items:
+      - "Playwright"
+      - "Cypress"
+      - "Selenium"
+      - "Appium"
+      - "Jest"
+      - "pytest"
+      - "JBehave"
+      - "Cucumber"
+      - "React Testing Library"
+      - "Vue Test Utils"
+      - "k6"
+
+  - name: "Languages & Frameworks"
+    color: "synapse_cyan"
+    items:
+      - "TypeScript"
+      - "Python"
+      - "Java"
+      - "C#"
+      - "Go"
+      - "PHP"
+      - "JavaScript"
+      - "Node.js"
+      - "Deno"
+      - "Flutter"
+      - "React"
+      - "Vue"
+      - "Angular"
+      - "FastAPI"
+      - ".NET"
+
+  - name: "DevOps & Observability"
+    color: "axon_amber"
+    items:
+      - "Docker"
+      - "Kubernetes"
+      - "Vagrant"
+      - "GitHub Actions"
+      - "OpenTelemetry"
+      - "Prometheus"
+      - "Grafana"
+      - "Jaeger"
+      - "Shell Script"
+      - "PowerShell"
+      - "AWS"
+      - "Azure"
+      - "GCP"
+
+  - name: "AI Engineering"
+    color: "emerald_green"
+    items:
+      - "LLMs"
+      - "RAG"
+      - "LangChain"
+      - "LlamaIndex"
+      - "Anthropic SDK"
+      - "OpenAI SDK"
+      - "Vector Databases"
+      - "Embeddings"
+      - "Prompt Engineering"
+      - "MCP"
+      - "AI Agents"
+      - "Fine-tuning"
+
+  - name: "Marketing Digital"
+    color: "rose_pink"
+    items:
+      - "SEO"
+      - "Analytics"
+      - "Data Analysis"
+      - "Growth Hacking"
+      - "Copywriting"
+      - "Funis de Conversão"
+      - "Email Marketing"
+      - "Social Media Strategy"
+      - "A/B Testing"
+
+# ------------------------------------------------------------
+# PROJETOS EM DESTAQUE
+# Os 3 primeiros com destaque: true aparecem na constelação SVG animada.
+# Todos aparecem na tabela de repositórios rastreados.
+#
+# Campos:
+#   repo        → "usuario/repositorio" (obrigatório)
+#   arm         → índice do braço (0-4) com que o projeto se relaciona
+#   destaque    → true para aparecer na constelação animada
+#   descricao   → descrição curta exibida no card (máx 60 caracteres)
+# ------------------------------------------------------------
+projects:
+  - repo: "douglasbonafe/qai-test-framework"
+    arm: 3                  # AI Engineering
+    destaque: true
+    descricao: "AI-powered QA framework with LLM test generation"
+
+  - repo: "douglasbonafe/visual-regression-platform"
+    arm: 0                  # Quality & Testing
+    destaque: true
+    descricao: "Visual regression platform with pixel-level matching"
+
+  - repo: "douglasbonafe/otel-starter-kit"
+    arm: 2                  # DevOps & Observability
+    destaque: true
+    descricao: "Full observability stack: OTel + Grafana + Jaeger"
+
+  - repo: "douglasbonafe/ai-test-generator"
+    arm: 3                  # AI Engineering
+    destaque: false
+    descricao: "Automated test generation from specs using AI"
+
+  - repo: "douglasbonafe/FeatureFlagTestingFramework"
+    arm: 0                  # Quality & Testing
+    destaque: false
+    descricao: "Provider-agnostic feature flag testing framework"
+
+  - repo: "douglasbonafe/python-networking-tests"
+    arm: 1                  # Languages & Frameworks
+    destaque: false
+    descricao: "Networking test utilities in Python"
+
+  - repo: "douglasbonafe/myportfolio"
+    arm: 1                  # Languages & Frameworks
+    destaque: false
+    descricao: "Personal portfolio site built with Astro"
+
+# ------------------------------------------------------------
+# MÉTRICAS EXIBIDAS NO CARD DE TELEMETRIA
+# Ordem de exibição da esquerda para a direita.
+# Opções: commits, stars, prs, issues, repos
+# ------------------------------------------------------------
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+# ------------------------------------------------------------
+# CONFIGURAÇÕES DE LINGUAGENS (card de tech stack)
+# max_display → quantas linguagens exibir (recomendado: 8-10)
+# exclude     → linguagens a ignorar (arquivos de config, etc.)
+# ------------------------------------------------------------
+languages:
+  max_display: 10
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Dockerfile"
+    - "Makefile"
+
+# ------------------------------------------------------------
+# FORMAÇÃO & CERTIFICAÇÕES
+# Exibidas como badges na seção de formação do README.
+# status: "concluido" | "em_andamento"
+# ------------------------------------------------------------
+formacao:
+  - titulo: "Engenharia da Computação"
+    instituicao: "UNIFEI"
+    status: "concluido"
+    tipo: "graduacao"
+
+  - titulo: "Mestrado em Ciências e Tecnologias"
+    instituicao: "UNIFEI"
+    status: "concluido"
+    tipo: "pos_graduacao"
+
+  - titulo: "MBA IA para Negócios"
+    instituicao: "Em andamento"
+    status: "em_andamento"
+    tipo: "mba"
+
+  - titulo: "MBA IA Técnico"
+    instituicao: "Em andamento"
+    status: "em_andamento"
+    tipo: "mba"
+
+  - titulo: "MBA Marketing"
+    instituicao: "Em andamento"
+    status: "em_andamento"
+    tipo: "mba"
+
+  - titulo: "MBA Marketing & Data Analysis"
+    instituicao: "Em andamento"
+    status: "em_andamento"
+    tipo: "mba"
+
+# ------------------------------------------------------------
+# TEMA DE CORES (opcional)
+# Sobrescreve as cores padrão da galáxia.
+# Todos os valores devem ser hex válidos (#RRGGBB).
+# Deixe em branco ({}) para usar o tema padrão deep-space.
+# ------------------------------------------------------------
+theme:
+  # void: "#080c14"          # fundo mais escuro
+  # nebula: "#0f1623"        # fundo dos cards
+  # star_dust: "#1a2332"     # bordas dos cards
+  # synapse_cyan: "#00d4ff"  # ciano (braço 2)
+  # dendrite_violet: "#a78bfa" # violeta (braço 1)
+  # axon_amber: "#ffb020"    # âmbar (braço 3)
+  # text_bright: "#f1f5f9"   # texto principal
+  # text_dim: "#94a3b8"      # texto secundário
+  # text_faint: "#64748b"    # texto suave
+  # Cores extras para os novos braços:
+  # emerald_green: "#10b981" # verde (braço 4)
+  # rose_pink: "#f43f5e"     # rosa (braço 5)

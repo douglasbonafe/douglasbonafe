@@ -1,0 +1,76 @@
+name: Update Portfolio
+
+# =============================================================
+# Atualiza automaticamente os SVGs e o README.md do portfolio.
+#
+# Quando roda:
+#   - Todo domingo às 23h00 (horário de Brasília = segunda 02:00 UTC)
+#   - Push em github-portfolio-data.yml ou generator/**
+#   - Execução manual via GitHub UI (workflow_dispatch)
+# =============================================================
+
+on:
+  schedule:
+    # Domingo 23:00 BRT = Segunda 02:00 UTC
+    - cron: "0 2 * * 1"
+
+  workflow_dispatch:
+    inputs:
+      demo_mode:
+        description: "Usar modo demo (sem chamadas à API)?"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+  push:
+    paths:
+      - "github-portfolio-data.yml"
+      - "generator/**"
+
+jobs:
+  generate:
+    name: Gerar assets do portfolio
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Gerar SVGs e README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.demo_mode }}" = "true" ]; then
+            echo "Rodando em modo demo..."
+            python3 -m generator.main --demo
+          else
+            echo "Rodando com dados reais da API..."
+            python3 -m generator.main
+          fi
+
+      - name: Commit e push se houver alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/generated/ README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update portfolio SVGs and README [skip ci]"
+            git push
+            echo "✅ Portfolio atualizado com sucesso!"
+          else
+            echo "ℹ️ Nenhuma alteração detectada."
+          fi
