@@ -60,16 +60,20 @@
 
 ## 🏆 GitHub Achievements
 <div align="center">
-
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="64" height="64" title="Pair Extraordinaire x3" alt="Pair Extraordinaire x3"/>
+<table><tr>
+<td align="center" width="120">
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="64" height="64" alt="Pair Extraordinaire x3"/>
 <br/><sub><b>Pair Extraordinaire x3</b></sub>
-
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" height="64" title="Pull Shark x2" alt="Pull Shark x2"/>
+</td>
+<td align="center" width="120">
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" height="64" alt="Pull Shark x2"/>
 <br/><sub><b>Pull Shark x2</b></sub>
-
-<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="64" height="64" title="Quickdraw" alt="Quickdraw"/>
+</td>
+<td align="center" width="120">
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="64" height="64" alt="Quickdraw"/>
 <br/><sub><b>Quickdraw</b></sub>
-
+</td>
+</tr></table>
 </div>
 
 

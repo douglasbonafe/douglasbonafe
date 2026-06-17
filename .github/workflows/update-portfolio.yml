@@ -25,10 +25,6 @@ on:
           - "false"
           - "true"
 
-  push:
-    paths:
-      - "github-portfolio-data.yml"
-      - "generator/**"
 
 jobs:
   generate:

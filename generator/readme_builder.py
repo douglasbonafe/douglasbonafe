@@ -185,28 +185,32 @@ def _build_achievements(config: dict) -> str:
     if not achievements:
         return ""
 
+    valid = [
+        (ach, ACHIEVEMENT_IMAGES[ach["id"]])
+        for ach in achievements
+        if ach.get("id") in ACHIEVEMENT_IMAGES
+    ]
+    if not valid:
+        return ""
+
+    cols = 3
     out = _section_header("GitHub Achievements", "🏆")
-    out += '<div align="center">\n\n'
+    out += '<div align="center">\n<table><tr>\n'
 
-    for ach in achievements:
-        aid = ach.get("id", "")
-        label = ach.get("label", aid)
+    for i, (ach, img_url) in enumerate(valid):
+        label = ach.get("label", ach["id"])
         tier = ach.get("tier", "")
-        img_url = ACHIEVEMENT_IMAGES.get(aid, "")
-        if not img_url:
-            continue
-        tier_suffix = f" {tier}" if tier else ""
+        caption = f"{label} {tier}".strip()
         out += (
-            f'<img src="{img_url}" width="64" height="64" '
-            f'title="{label}{tier_suffix}" alt="{label}{tier_suffix}"/>\n'
+            f'<td align="center" width="120">\n'
+            f'<img src="{img_url}" width="64" height="64" alt="{caption}"/>\n'
+            f'<br/><sub><b>{caption}</b></sub>\n'
+            f'</td>\n'
         )
-        if tier:
-            out += f"<br/><sub><b>{label} {tier}</b></sub>\n"
-        else:
-            out += f"<br/><sub><b>{label}</b></sub>\n"
-        out += "\n"
+        if (i + 1) % cols == 0 and (i + 1) < len(valid):
+            out += "</tr><tr>\n"
 
-    out += "</div>\n"
+    out += "</tr></table>\n</div>\n"
     return out
 
 
