@@ -130,35 +130,43 @@ def _build_projects(config: dict) -> str:
     return out
 
 
+def _formation_badge_url(titulo: str, inst: str, color: str, logo_color: str) -> str:
+    t = titulo.replace(" ", "_").replace("&", "%26").replace("#", "").replace(".", "")
+    i = inst.replace(" ", "_").replace("&", "%26") if inst else ""
+    label = f"{t}-{i}" if i else t
+    return (
+        f"https://img.shields.io/badge/{label}-{color}"
+        f"?style=flat-square&logoColor={logo_color}"
+    )
+
+
 def _build_formation(config: dict) -> str:
     formacao = config.get("formacao", [])
     if not formacao:
         return ""
 
     out = _section_header("Education & Certifications", "🎓")
-    out += '<div align="center">\n\n'
 
-    concluidos = [f for f in formacao if f.get("status") == "concluido"]
-    em_andamento = [f for f in formacao if f.get("status") == "em_andamento"]
+    tipo_order = ["graduacao", "pos_graduacao", "mba"]
+    tipo_label = {
+        "graduacao": ("Bachelor's Degree", "a78bfa"),
+        "pos_graduacao": ("Graduate", "00d4ff"),
+        "mba": ("MBA", "ffb020"),
+    }
 
-    if concluidos:
-        out += "**Completed**\n\n"
-        for item in concluidos:
+    for tipo in tipo_order:
+        items = [f for f in formacao if f.get("tipo") == tipo and f.get("status") == "concluido"]
+        if not items:
+            continue
+        _, logo_color = tipo_label[tipo]
+        for item in items:
             titulo = item.get("titulo", "")
             inst = item.get("instituicao", "")
-            label = f"{titulo} — {inst}" if inst else titulo
-            out += f"![{titulo}](https://img.shields.io/badge/{titulo.replace(' ', '_')}-{inst.replace(' ', '_')}-1a2332?style=flat-square&logo=graduation-cap&logoColor=a78bfa) "
-        out += "\n\n"
+            url = _formation_badge_url(titulo, inst, "1a2332", logo_color)
+            suffix = f" — {inst}" if inst else ""
+            out += f"![{titulo}]({url})  **{titulo}**{suffix}\\\n"
 
-    if em_andamento:
-        out += "**In Progress**\n\n"
-        for item in em_andamento:
-            titulo = item.get("titulo", "")
-            out += f"![{titulo}](https://img.shields.io/badge/{titulo.replace(' ', '_')}-Em_Andamento-1a2332?style=flat-square&logoColor=ffb020) "
-        out += "\n\n"
-
-    out += "</div>\n"
-    return out
+    return out + "\n"
 
 
 def _build_contact(config: dict) -> str:

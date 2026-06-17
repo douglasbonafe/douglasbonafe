@@ -658,8 +658,8 @@
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="3.5s" repeatCount="indefinite"/>
     </circle>
     <line x1="617.4" y1="137.2" x2="635.3" y2="135.5" stroke="#f43f5e" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="635.3" y="138.5" text-anchor="start" fill="#f43f5e" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Funis de Conversão</text>
-    <text x="635.3" y="138.5" text-anchor="start" fill="#f43f5e" font-size="9" font-family="monospace" opacity="0.85">Funis de Conversão</text>
+    <text x="635.3" y="138.5" text-anchor="start" fill="#f43f5e" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Conversion Funnels</text>
+    <text x="635.3" y="138.5" text-anchor="start" fill="#f43f5e" font-size="9" font-family="monospace" opacity="0.85">Conversion Funnels</text>
     <circle cx="652.5" cy="156.0" r="2.5" fill="#f43f5e" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="4.199999999999999s" repeatCount="indefinite"/>
     </circle>
@@ -716,6 +716,6 @@
 
   <!-- 12. Profile text -->
   <text x="425" y="26" text-anchor="middle" fill="#f1f5f9" font-size="20" font-weight="bold" font-family="sans-serif">Douglas Bonafé</text>
-  <text x="425" y="44" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif">Transformando qualidade em cultura de engenharia</text>
+  <text x="425" y="44" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif">Turning quality into engineering culture</text>
   <text x="425" y="268" text-anchor="middle" fill="#64748b" font-size="11" font-family="monospace" font-style="italic"></text>
 </svg>

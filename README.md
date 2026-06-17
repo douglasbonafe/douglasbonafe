@@ -11,11 +11,11 @@
 
 ## 👨‍💻 About Me
 <div align="center">
-<p>Staff Engineer com foco em Quality Assurance, AI Engineering e desenvolvimento Full-Stack.</p>
-<p>Especialista em automação de testes, observabilidade e sistemas inteligentes.</p>
-<p>Apaixonado por construir ferramentas que tornam equipes de engenharia mais eficientes.</p>
+<p>Staff Engineer focused on Quality Assurance, AI Engineering and Full-Stack development.</p>
+<p>Specialist in test automation, observability and intelligent systems.</p>
+<p>Passionate about building tools that make engineering teams more effective.</p>
 
-📍 Pouso Alegre, MG, Brasil &nbsp;•&nbsp; 🏢 Open to opportunities
+📍 Pouso Alegre, MG, Brazil &nbsp;•&nbsp; 🏢 Open to opportunities
 
 </div>
 
@@ -33,7 +33,7 @@
 
 **AI Engineering:** `LLMs` `RAG` `LangChain` `LlamaIndex` `Anthropic SDK` `OpenAI SDK` `Vector Databases` `Embeddings` `Prompt Engineering` `MCP` `AI Agents` `Fine-tuning`
 
-**Marketing Digital:** `SEO` `Analytics` `Data Analysis` `Growth Hacking` `Copywriting` `Funis de Conversão` `Email Marketing` `Social Media Strategy` `A/B Testing`
+**Marketing Digital:** `SEO` `Analytics` `Data Analysis` `Growth Hacking` `Copywriting` `Conversion Funnels` `Email Marketing` `Social Media Strategy` `A/B Testing`
 
 </div>
 
@@ -59,17 +59,20 @@
 
 
 ## 🎓 Education & Certifications
-<div align="center">
+![Computer Engineering](https://img.shields.io/badge/Computer_Engineering-UNIFEI-1a2332?style=flat-square&logoColor=a78bfa)  **Computer Engineering** — UNIFEI\
+![M.Sc. Science & Technology](https://img.shields.io/badge/MSc_Science_%26_Technology-UNIFEI-1a2332?style=flat-square&logoColor=00d4ff)  **M.Sc. Science & Technology** — UNIFEI\
+![MBA AI for Business](https://img.shields.io/badge/MBA_AI_for_Business-1a2332?style=flat-square&logoColor=ffb020)  **MBA AI for Business**\
+![MBA Technical AI](https://img.shields.io/badge/MBA_Technical_AI-1a2332?style=flat-square&logoColor=ffb020)  **MBA Technical AI**\
+![MBA Marketing](https://img.shields.io/badge/MBA_Marketing-1a2332?style=flat-square&logoColor=ffb020)  **MBA Marketing**\
+![MBA Marketing & Data Analysis](https://img.shields.io/badge/MBA_Marketing_%26_Data_Analysis-1a2332?style=flat-square&logoColor=ffb020)  **MBA Marketing & Data Analysis**\
+![MBA Nutrition](https://img.shields.io/badge/MBA_Nutrition-1a2332?style=flat-square&logoColor=ffb020)  **MBA Nutrition**\
+![MBA Phytotherapy](https://img.shields.io/badge/MBA_Phytotherapy-1a2332?style=flat-square&logoColor=ffb020)  **MBA Phytotherapy**\
+![MBA Family Sciences](https://img.shields.io/badge/MBA_Family_Sciences-1a2332?style=flat-square&logoColor=ffb020)  **MBA Family Sciences**\
+![MBA Philosophy](https://img.shields.io/badge/MBA_Philosophy-1a2332?style=flat-square&logoColor=ffb020)  **MBA Philosophy**\
+![MBA Catholic Anthropology](https://img.shields.io/badge/MBA_Catholic_Anthropology-1a2332?style=flat-square&logoColor=ffb020)  **MBA Catholic Anthropology**\
+![MBA Sacred Scripture](https://img.shields.io/badge/MBA_Sacred_Scripture-1a2332?style=flat-square&logoColor=ffb020)  **MBA Sacred Scripture**\
+![MBA Theology](https://img.shields.io/badge/MBA_Theology-1a2332?style=flat-square&logoColor=ffb020)  **MBA Theology**\
 
-**Completed**
-
-![Engenharia da Computação](https://img.shields.io/badge/Engenharia_da_Computação-UNIFEI-1a2332?style=flat-square&logo=graduation-cap&logoColor=a78bfa) ![Mestrado em Ciências e Tecnologias](https://img.shields.io/badge/Mestrado_em_Ciências_e_Tecnologias-UNIFEI-1a2332?style=flat-square&logo=graduation-cap&logoColor=a78bfa) 
-
-**In Progress**
-
-![MBA IA para Negócios](https://img.shields.io/badge/MBA_IA_para_Negócios-Em_Andamento-1a2332?style=flat-square&logoColor=ffb020) ![MBA IA Técnico](https://img.shields.io/badge/MBA_IA_Técnico-Em_Andamento-1a2332?style=flat-square&logoColor=ffb020) ![MBA Marketing](https://img.shields.io/badge/MBA_Marketing-Em_Andamento-1a2332?style=flat-square&logoColor=ffb020) ![MBA Marketing & Data Analysis](https://img.shields.io/badge/MBA_Marketing_&_Data_Analysis-Em_Andamento-1a2332?style=flat-square&logoColor=ffb020) 
-
-</div>
 
 
 ## 📡 Connect

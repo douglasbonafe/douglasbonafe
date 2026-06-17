@@ -21,13 +21,13 @@ username: "douglasbonafe"
 profile:
   nome: "Douglas Bonafé"
   titulo: "Staff QA/SDET · AI Engineer · Full-Stack Developer"
-  tagline: "Transformando qualidade em cultura de engenharia"
+  tagline: "Turning quality into engineering culture"
   empresa: "Open to opportunities"
-  localizacao: "Pouso Alegre, MG, Brasil"
+  localizacao: "Pouso Alegre, MG, Brazil"
   bio: |
-    Staff Engineer com foco em Quality Assurance, AI Engineering e desenvolvimento Full-Stack.
-    Especialista em automação de testes, observabilidade e sistemas inteligentes.
-    Apaixonado por construir ferramentas que tornam equipes de engenharia mais eficientes.
+    Staff Engineer focused on Quality Assurance, AI Engineering and Full-Stack development.
+    Specialist in test automation, observability and intelligent systems.
+    Passionate about building tools that make engineering teams more effective.
   filosofia: '"Quality is not an act, it is a habit." — Aristotle'
 
 # ------------------------------------------------------------
@@ -132,7 +132,7 @@ galaxy_arms:
       - "Data Analysis"
       - "Growth Hacking"
       - "Copywriting"
-      - "Funis de Conversão"
+      - "Conversion Funnels"
       - "Email Marketing"
       - "Social Media Strategy"
       - "A/B Testing"
@@ -216,34 +216,69 @@ languages:
 # status: "concluido" | "em_andamento"
 # ------------------------------------------------------------
 formacao:
-  - titulo: "Engenharia da Computação"
+  - titulo: "Computer Engineering"
     instituicao: "UNIFEI"
     status: "concluido"
     tipo: "graduacao"
 
-  - titulo: "Mestrado em Ciências e Tecnologias"
+  - titulo: "M.Sc. Science & Technology"
     instituicao: "UNIFEI"
     status: "concluido"
     tipo: "pos_graduacao"
 
-  - titulo: "MBA IA para Negócios"
-    instituicao: "Em andamento"
-    status: "em_andamento"
+  - titulo: "MBA AI for Business"
+    instituicao: ""
+    status: "concluido"
     tipo: "mba"
 
-  - titulo: "MBA IA Técnico"
-    instituicao: "Em andamento"
-    status: "em_andamento"
+  - titulo: "MBA Technical AI"
+    instituicao: ""
+    status: "concluido"
     tipo: "mba"
 
   - titulo: "MBA Marketing"
-    instituicao: "Em andamento"
-    status: "em_andamento"
+    instituicao: ""
+    status: "concluido"
     tipo: "mba"
 
   - titulo: "MBA Marketing & Data Analysis"
-    instituicao: "Em andamento"
-    status: "em_andamento"
+    instituicao: ""
+    status: "concluido"
+    tipo: "mba"
+
+  - titulo: "MBA Nutrition"
+    instituicao: ""
+    status: "concluido"
+    tipo: "mba"
+
+  - titulo: "MBA Phytotherapy"
+    instituicao: ""
+    status: "concluido"
+    tipo: "mba"
+
+  - titulo: "MBA Family Sciences"
+    instituicao: ""
+    status: "concluido"
+    tipo: "mba"
+
+  - titulo: "MBA Philosophy"
+    instituicao: ""
+    status: "concluido"
+    tipo: "mba"
+
+  - titulo: "MBA Catholic Anthropology"
+    instituicao: ""
+    status: "concluido"
+    tipo: "mba"
+
+  - titulo: "MBA Sacred Scripture"
+    instituicao: ""
+    status: "concluido"
+    tipo: "mba"
+
+  - titulo: "MBA Theology"
+    instituicao: ""
+    status: "concluido"
     tipo: "mba"
 
 # ------------------------------------------------------------
