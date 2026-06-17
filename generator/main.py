@@ -15,7 +15,7 @@ from generator.readme_builder import build_readme
 
 logger = logging.getLogger(__name__)
 
-DEMO_STATS = {"commits": 1543, "stars": 3, "prs": 625, "issues": 512, "repos": 25}
+DEMO_STATS = {"commits": 2400, "stars": 128, "prs": 625, "issues": 512, "repos": 25}
 DEMO_LANGUAGES = {
     "TypeScript": 520000,
     "Python": 410000,
