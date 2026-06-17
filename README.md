@@ -58,6 +58,21 @@
 | [myportfolio](https://github.com/douglasbonafe/myportfolio) | Personal portfolio site built with Astro | ![Languages & Frameworks](https://img.shields.io/badge/Languages_&_Frameworks-00d4ff?style=flat-square) | ![Stars](https://img.shields.io/github/stars/douglasbonafe/myportfolio?style=flat-square&color=00d4ff&labelColor=0f1623) | ![Forks](https://img.shields.io/github/forks/douglasbonafe/myportfolio?style=flat-square&color=64748b&labelColor=0f1623) |
 
 
+## 🏆 GitHub Achievements
+<div align="center">
+
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="64" height="64" title="Pair Extraordinaire x3" alt="Pair Extraordinaire x3"/>
+<br/><sub><b>Pair Extraordinaire x3</b></sub>
+
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" height="64" title="Pull Shark x2" alt="Pull Shark x2"/>
+<br/><sub><b>Pull Shark x2</b></sub>
+
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="64" height="64" title="Quickdraw" alt="Quickdraw"/>
+<br/><sub><b>Quickdraw</b></sub>
+
+</div>
+
+
 ## 🎓 Education & Certifications
 ![Computer Engineering](https://img.shields.io/badge/Computer_Engineering-UNIFEI-1a2332?style=flat-square&logoColor=a78bfa)  **Computer Engineering** — UNIFEI\
 ![M.Sc. Science & Technology](https://img.shields.io/badge/MSc_Science_%26_Technology-UNIFEI-1a2332?style=flat-square&logoColor=00d4ff)  **M.Sc. Science & Technology** — UNIFEI\

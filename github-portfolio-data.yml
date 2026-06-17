@@ -185,6 +185,22 @@ projects:
     descricao: "Personal portfolio site built with Astro"
 
 # ------------------------------------------------------------
+# GITHUB ACHIEVEMENTS
+# Conquistas do perfil GitHub. Cada item aparece como imagem
+# na seção de achievements do README.
+# ------------------------------------------------------------
+achievements:
+  - id: "pair-extraordinaire"
+    label: "Pair Extraordinaire"
+    tier: "x3"
+  - id: "pull-shark"
+    label: "Pull Shark"
+    tier: "x2"
+  - id: "quickdraw"
+    label: "Quickdraw"
+    tier: ""
+
+# ------------------------------------------------------------
 # MÉTRICAS EXIBIDAS NO CARD DE TELEMETRIA
 # Ordem de exibição da esquerda para a direita.
 # Opções: commits, stars, prs, issues, repos

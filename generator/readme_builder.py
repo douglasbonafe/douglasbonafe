@@ -169,6 +169,47 @@ def _build_formation(config: dict) -> str:
     return out + "\n"
 
 
+ACHIEVEMENT_IMAGES = {
+    "pair-extraordinaire": "https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png",
+    "pull-shark": "https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png",
+    "quickdraw": "https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png",
+    "starstruck": "https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png",
+    "galaxy-brain": "https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png",
+    "yolo": "https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png",
+    "arctic-code-vault-contributor": "https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png",
+}
+
+
+def _build_achievements(config: dict) -> str:
+    achievements = config.get("achievements", [])
+    if not achievements:
+        return ""
+
+    out = _section_header("GitHub Achievements", "🏆")
+    out += '<div align="center">\n\n'
+
+    for ach in achievements:
+        aid = ach.get("id", "")
+        label = ach.get("label", aid)
+        tier = ach.get("tier", "")
+        img_url = ACHIEVEMENT_IMAGES.get(aid, "")
+        if not img_url:
+            continue
+        tier_suffix = f" {tier}" if tier else ""
+        out += (
+            f'<img src="{img_url}" width="64" height="64" '
+            f'title="{label}{tier_suffix}" alt="{label}{tier_suffix}"/>\n'
+        )
+        if tier:
+            out += f"<br/><sub><b>{label} {tier}</b></sub>\n"
+        else:
+            out += f"<br/><sub><b>{label}</b></sub>\n"
+        out += "\n"
+
+    out += "</div>\n"
+    return out
+
+
 def _build_contact(config: dict) -> str:
     social = config.get("social", {})
     links = []
@@ -228,6 +269,7 @@ def build_readme(config: dict, stats: dict) -> str:
         _build_about(config),
         _build_tech_stack(config),
         _build_projects(config),
+        _build_achievements(config),
         _build_formation(config),
         _build_contact(config),
         _build_footer(),
