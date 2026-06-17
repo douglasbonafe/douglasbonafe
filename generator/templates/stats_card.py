@@ -26,11 +26,11 @@ def render(stats: dict, metrics: list, theme: dict) -> str:
         icon_path = METRIC_ICONS.get(key, "")
         delay = f"{i * 0.3}s"
 
+        # Icon: scale 16x16 path to 20x20, centered at (0,0), placed above number
+        # translate(-10, -58) centers a 20px icon horizontally and puts it ~18px above the number
         cells.append(f'''    <g class="metric-cell" transform="translate({cx}, 95)">
-      <g transform="translate(-10, -52)">
-        <svg viewBox="0 0 16 16" width="20" height="20" fill="{icon_color}" class="metric-icon" style="animation-delay: {delay}">
-          {icon_path}
-        </svg>
+      <g transform="translate(-10, -58) scale(1.25)" fill="{icon_color}" class="metric-icon" style="animation-delay: {delay}">
+        {icon_path}
       </g>
       <text x="0" y="5" text-anchor="middle" fill="{icon_color}" font-size="28" font-weight="bold" font-family="sans-serif" opacity="0.35" filter="url(#num-glow)">{value}</text>
       <text x="0" y="5" text-anchor="middle" fill="{theme['text_bright']}" font-size="28" font-weight="bold" font-family="sans-serif">{value}</text>
