@@ -179,6 +179,10 @@ projects:
     destaque: false
     descricao: "Networking test utilities in Python"
 
+  - repo: "douglasbonafe/llm-eval-guardrails"
+    arm: 3                  # AI Engineering
+    destaque: false
+    descricao: "Offline-first eval and guardrails framework for LLM apps"
   - repo: "douglasbonafe/myportfolio"
     arm: 1                  # Languages & Frameworks
     destaque: false
