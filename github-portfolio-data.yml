@@ -188,6 +188,16 @@ projects:
     destaque: false
     descricao: "Personal portfolio site built with Astro"
 
+  - repo: "douglasbonafe/realworld-ui-automation"
+    arm: 0                  # Quality & Testing
+    destaque: false
+    descricao: "Cypress, Playwright and Selenium on one app"
+
+  - repo: "douglasbonafe/realworld-api-automation"
+    arm: 0                  # Quality & Testing
+    destaque: false
+    descricao: "One API suite in 3 Java stacks, 10 gaps found"
+
 # ------------------------------------------------------------
 # GITHUB ACHIEVEMENTS
 # Conquistas do perfil GitHub. Cada item aparece como imagem
