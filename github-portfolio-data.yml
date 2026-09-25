@@ -198,6 +198,36 @@ projects:
     destaque: false
     descricao: "One API suite in 3 Java stacks, 10 gaps found"
 
+  - repo: "douglasbonafe/llm-release-gate"
+    arm: 3                  # AI Engineering
+    destaque: false
+    descricao: "CI gate that blocks prompt regressions before deploy"
+
+  - repo: "douglasbonafe/model-canary"
+    arm: 3                  # AI Engineering
+    destaque: false
+    descricao: "Scheduled canary that detects model behavior drift"
+
+  - repo: "douglasbonafe/agent-contract-tester"
+    arm: 0                  # Quality & Testing
+    destaque: false
+    descricao: "Verifies agent tool calls and final DB state"
+
+  - repo: "douglasbonafe/rag-regression-lab"
+    arm: 3                  # AI Engineering
+    destaque: false
+    descricao: "Pinpoints RAG regressions: retrieval vs generation"
+
+  - repo: "douglasbonafe/trace-to-test"
+    arm: 0                  # Quality & Testing
+    destaque: false
+    descricao: "Turns incident traces into reviewed regression tests"
+
+  - repo: "douglasbonafe/eval-mutation-tester"
+    arm: 0                  # Quality & Testing
+    destaque: false
+    descricao: "Mutation testing that proves LLM evals catch defects"
+
 # ------------------------------------------------------------
 # GITHUB ACHIEVEMENTS
 # Conquistas do perfil GitHub. Cada item aparece como imagem
