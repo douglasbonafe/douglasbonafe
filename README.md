@@ -65,6 +65,12 @@
 | [rag-regression-lab](https://github.com/douglasbonafe/rag-regression-lab) | Pinpoints RAG regressions: retrieval vs generation | ![AI Engineering](https://img.shields.io/badge/AI_Engineering-10b981?style=flat-square) | ![Stars](https://img.shields.io/github/stars/douglasbonafe/rag-regression-lab?style=flat-square&color=10b981&labelColor=0f1623) | ![Forks](https://img.shields.io/github/forks/douglasbonafe/rag-regression-lab?style=flat-square&color=64748b&labelColor=0f1623) |
 | [trace-to-test](https://github.com/douglasbonafe/trace-to-test) | Turns incident traces into reviewed regression tests | ![Quality & Testing](https://img.shields.io/badge/Quality_&_Testing-a78bfa?style=flat-square) | ![Stars](https://img.shields.io/github/stars/douglasbonafe/trace-to-test?style=flat-square&color=a78bfa&labelColor=0f1623) | ![Forks](https://img.shields.io/github/forks/douglasbonafe/trace-to-test?style=flat-square&color=64748b&labelColor=0f1623) |
 | [eval-mutation-tester](https://github.com/douglasbonafe/eval-mutation-tester) | Mutation testing that proves LLM evals catch defects | ![Quality & Testing](https://img.shields.io/badge/Quality_&_Testing-a78bfa?style=flat-square) | ![Stars](https://img.shields.io/github/stars/douglasbonafe/eval-mutation-tester?style=flat-square&color=a78bfa&labelColor=0f1623) | ![Forks](https://img.shields.io/github/forks/douglasbonafe/eval-mutation-tester?style=flat-square&color=64748b&labelColor=0f1623) |
+| [predictive-qa](https://github.com/douglasbonafe/predictive-qa) | Predicts bug-inducing commits before deploy | ![Quality & Testing](https://img.shields.io/badge/Quality_&_Testing-a78bfa?style=flat-square) | ![Stars](https://img.shields.io/github/stars/douglasbonafe/predictive-qa?style=flat-square&color=a78bfa&labelColor=0f1623) | ![Forks](https://img.shields.io/github/forks/douglasbonafe/predictive-qa?style=flat-square&color=64748b&labelColor=0f1623) |
+
+
+## ✍️ Latest Writing
+
+- [Predictive QA: Using Machine Learning to Anticipate Bugs Before Deploy](https://douglasbonafe.github.io/myportfolio/blog/predictive-qa/), with the [code](https://github.com/douglasbonafe/predictive-qa) to reproduce every number.
 
 
 ## 🏆 GitHub Achievements

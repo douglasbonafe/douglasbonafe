@@ -130,6 +130,19 @@ def _build_projects(config: dict) -> str:
     return out
 
 
+def _build_writing(config: dict) -> str:
+    posts = config.get("writing", [])
+    if not posts:
+        return ""
+    lines = []
+    for post in posts:
+        line = f"- [{post['title']}]({post['url']})"
+        if post.get("repo"):
+            line += f", with the [code]({post['repo']}) to reproduce every number."
+        lines.append(line)
+    return _section_header("Latest Writing", "✍️") + "\n" + "\n".join(lines) + "\n\n"
+
+
 def _formation_badge_url(titulo: str, inst: str, color: str, logo_color: str) -> str:
     t = titulo.replace(" ", "_").replace("&", "%26").replace("#", "").replace(".", "")
     i = inst.replace(" ", "_").replace("&", "%26") if inst else ""
@@ -273,6 +286,7 @@ def build_readme(config: dict, stats: dict) -> str:
         _build_about(config),
         _build_tech_stack(config),
         _build_projects(config),
+        _build_writing(config),
         _build_achievements(config),
         _build_formation(config),
         _build_contact(config),

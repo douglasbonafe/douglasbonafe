@@ -37,7 +37,7 @@ profile:
 social:
   linkedin: "douglasbonafe"
   github: "douglasbonafe"
-  portfolio: ""        # Ex: "https://meuportfolio.netlify.app"
+  portfolio: "https://douglasbonafe.github.io/myportfolio/"
   email: ""            # Ex: "douglas@email.com"
   twitter: ""          # Ex: "dsbonafe"
 
@@ -227,6 +227,20 @@ projects:
     arm: 0                  # Quality & Testing
     destaque: false
     descricao: "Mutation testing that proves LLM evals catch defects"
+
+  - repo: "douglasbonafe/predictive-qa"
+    arm: 0                  # Quality & Testing
+    destaque: true
+    descricao: "Predicts bug-inducing commits before deploy"
+
+# ------------------------------------------------------------
+# ARTIGOS
+# Posts publicados no blog do portfolio (mais recente primeiro).
+# ------------------------------------------------------------
+writing:
+  - title: "Predictive QA: Using Machine Learning to Anticipate Bugs Before Deploy"
+    url: "https://douglasbonafe.github.io/myportfolio/blog/predictive-qa/"
+    repo: "https://github.com/douglasbonafe/predictive-qa"
 
 # ------------------------------------------------------------
 # GITHUB ACHIEVEMENTS
