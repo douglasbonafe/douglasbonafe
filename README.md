@@ -73,6 +73,7 @@
 - [Predictive QA: Using Machine Learning to Anticipate Bugs Before Deploy](https://douglasbonafe.github.io/myportfolio/blog/predictive-qa/), with the [code](https://github.com/douglasbonafe/predictive-qa) to reproduce every number.
 
 
+
 ## 🏆 GitHub Achievements
 <div align="center">
 <table><tr>
@@ -112,7 +113,7 @@
 ## 📡 Connect
 <div align="center">
 
-<a href="https://linkedin.com/in/douglasbonafe"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> &nbsp; <a href="https://github.com/douglasbonafe"><img src="https://img.shields.io/badge/GitHub-1a2332?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/douglasbonafe"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> &nbsp; <a href="https://github.com/douglasbonafe"><img src="https://img.shields.io/badge/GitHub-1a2332?style=for-the-badge&logo=github&logoColor=white"/></a> &nbsp; <a href="https://douglasbonafe.github.io/myportfolio/"><img src="https://img.shields.io/badge/Portfolio-ff5a03?style=for-the-badge&logo=astro&logoColor=white"/></a>
 
 </div>
 
